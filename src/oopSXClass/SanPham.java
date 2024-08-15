@@ -41,7 +41,7 @@ public class SanPham implements Comparable<SanPham>{
     // toString
     @Override
     public String toString() {
-        return "San Pham [ma=" + ma + ", ten=" + ten + ", gia=" + gia + "]";
+        return ma + "\t" + ten + "\t" + gia;
     }
 
     // phuong thuc
